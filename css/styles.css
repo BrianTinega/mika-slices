@@ -50,6 +50,17 @@ nav {
   border-radius: 10px;
   border-color: black;
 }
+.crust {
+  margin-top: 2cm;
+  padding: 1%;
+  margin-left: 2cm;
+  margin-bottom: 2cm;
+}
+.size {
+  margin-left: 2cm;
+  padding: 1%;
+  
+}
 
 .container .btn:hover {
   background-color:white;
