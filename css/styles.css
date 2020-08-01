@@ -1,0 +1,25 @@
+#about-us {
+
+  float: right;
+  margin-left: 0.6cm;
+  margin-right: 0.2cm;
+  margin-top: 0.3cm;
+  
+}
+#contact-us {
+  float: right;
+  margin-left: 0.6cm;
+  margin-top: 0.3cm;
+}
+
+nav {
+  background-color:black;
+  justify-content: right;
+  margin-top: 0cm;
+  padding-bottom: 1.5cm;
+  position: fixed;
+  width:100%;
+}
+#image {
+  width: 100%;
+}
