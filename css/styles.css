@@ -55,13 +55,17 @@ nav {
   padding: 1%;
   margin-left: 2cm;
   margin-bottom: 2cm;
+  border-radius: 15px;
 }
 .size {
   margin-left: 2cm;
   padding: 1%;
-  
+  border-radius: 15px;
 }
 
 .container .btn:hover {
   background-color:white;
+}
+h1 {
+  text-align: center;
 }
