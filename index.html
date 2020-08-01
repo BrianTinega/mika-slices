@@ -4,6 +4,8 @@
     <title>Mika-slices</title>
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/styles.css" type="text/css">
+    <script src="js/jquery-3.5.1.js"></script>
+    <script src="js/scripts.js"></script>
 
   </header>
   <body>
@@ -15,33 +17,44 @@
     </div>
     <div class="landing-page">
       <img src="images/landing-page.jpg" alt="landing page">
-      <button class="btn">Order Now</button>
+      <button class="btn" id="yellow-button"><a href="#order-page">Order Now</a></button>
     </div>
-   <h1>Place your order</h1>
-   <div id="size">
-    <select class="size">
-      <option selected>Choose pizza size</option>
-      <option value="large">Large-1000</option>
-      <option value="medium">Medium-850</option>
-      <option value="small">Small-600</option>
-    </select>  
-   </div>
-   <div id="crust">
-    <select class="crust">
-      <option selected>Which crust would you like:</option>
-      <option value="Crispy">Crispy</option>
-      <option value="Stuffed">Stuffed</option>
-      <option value="Gluten-free">Gluten-free</option>
-    </select>    
-   </div>
+    
+      <h1><a name="order-page">Place your order</a></h1>
+    
+  
+   <div class="row">
+     <div class="col-md-4">
+      <div id="size">
+        <select class="size">
+          <option selected>Choose pizza size</option>
+          <option value="large">Large-1000</option>
+          <option value="medium">Medium-850</option>
+          <option value="small">Small-600</option>
+        </select>  
+       </div>
+     </div>
+     <div class="col-md-4">
+      <div id="crust">
+        <select class="crust">
+          <option selected>Which crust would you like:</option>
+          <option value="Crispy">Crispy</option>
+          <option value="Stuffed">Stuffed</option>
+          <option value="Gluten-free">Gluten-free</option>
+        </select>    
+       </div>
+     </div>
 
-   <div id="topping">
-    <select class="crust">
-      <option selected>Which topping would you like:</option>
-      <option value="Crispy">Crispy</option>
-      <option value="Stuffed">Stuffed</option>
-      <option value="Gluten-free">Gluten-free</option>
-    </select>    
+     <div class="col-md-4">
+      <div id="topping">
+        <select class="crust">
+          <option selected>Which topping would you like:</option>
+          <option value="mushrooms">mushrooms</option>
+          <option value="onions">onions</option>
+          <option value="bacon">bacon</option>
+        </select>    
+       </div>
+     </div>
    </div>
   </body>
 </html>

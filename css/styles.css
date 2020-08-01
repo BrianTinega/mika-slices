@@ -49,6 +49,9 @@ nav {
   cursor: pointer;
   border-radius: 10px;
   border-color: black;
+  scroll-behavior: smooth;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
 }
 .crust {
   margin-top: 2cm;
@@ -69,3 +72,5 @@ nav {
 h1 {
   text-align: center;
 }
+
+
