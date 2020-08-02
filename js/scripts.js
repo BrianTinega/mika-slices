@@ -112,6 +112,8 @@ else if (inputSize=="medium" && inputCrust=="gluten-free" && inputTopping=="baco
     document.getElementById("result").innerHTML=("Kindly fill in all details above");
 
   }
+
+ 
   }
  
 
