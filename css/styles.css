@@ -72,5 +72,10 @@ nav {
 h1 {
   text-align: center;
 }
-
+p {
+  text-align: center;
+}
+#footer {
+  background-color: teal;
+}
 
