@@ -31,37 +31,30 @@
       
       <form id="pizza">
         <div class="row">
-          <div class="col-md-4">
-            <div id="size">
-              <select id="size">
-            <option selected>Choose pizza size</option>
-            <option value="large" id="large">Large---1000</option>
-            <option value="medium" id="medium">Medium---850</option>
-            <option value="small" id="small">Small---600</option>
-          </select>  
-         </div>
+          <div class="col-md-6">
+            <select id="size">
+              <option selected>Choose pizza size</option>
+              <option value="large" id="large">Large---1000</option>
+              <option value="medium" id="medium">Medium---850</option>
+              <option value="small" id="small">Small---600</option>
+            </select>  
+            <select id="crust">
+              <option selected>Which crust would you like:</option>
+              <option value="crispy" id="crispy">crispy-200</option>
+              <option value="stuffed" id="stuffed">Stuffed-150</option>
+              <option value="gluten-free" id="gluten-free">Gluten-free-100</option>
+            </select>    
+            <select id="topping">
+              <option selected>Which topping would you like:</option>
+              <option value="mushroom" id="mushroom">mushroom</option>
+              <option value="onion" id="onion">onion</option>
+              <option value="bacon" id="bacon">bacon</option>
+            </select> 
+          </div>
+          <div class="col-md-6">
+            <div id="result"></div>
+          </div>
         </div>
-        <div class="col-md-4">
-        <div id="crust">
-          <select id="crust">
-            <option selected>Which crust would you like:</option>
-            <option value="Crispy" id="crispy">Crispy-200</option>
-            <option value="Stuffed" id="stuffed">Stuffed-150</option>
-            <option value="Gluten-free" id="gluten-free">Gluten-free-100</option>
-          </select>    
-         </div>
-        </div>
-        <div class="col-md-4">
-        
-          <select id="topping">
-            <option selected>Which topping would you like:</option>
-            <option value="mushrooms" id="mushroom">mushrooms</option>
-            <option value="onions" id="onion">onions</option>
-            <option value="bacon" id="bacon">bacon</option>
-          </select>    
-         </div>
-       </div>
-      </div>
       <button type="button" class="btn btn-primary" id="proceed" onclick="myPrice()">Proceed</button>
   
 
