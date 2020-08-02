@@ -13,10 +13,12 @@
       <nav> 
         <button type="button" class="btn btn-primary" id="about-us">About us</button>
         <button type="button" class="btn btn-primary" id="contact-us">Contact Us</button>
+       
       </nav>
     </div>
     <div class="landing-page">
       <img src="images/landing-page.jpg" alt="landing page">
+      <img src="images/brand.png" alt="brand" id="brand" >
       <button class="btn" id="yellow-button"><a href="#order-page">Order Now</a></button>
     </div>
     <div class="card">
@@ -37,19 +39,19 @@
               <option value="large" id="large">Large---1000</option>
               <option value="medium" id="medium">Medium---850</option>
               <option value="small" id="small">Small---600</option>
-            </select>  
+            </select><br> 
             <select id="crust">
               <option selected>Which crust would you like:</option>
               <option value="crispy" id="crispy">crispy-200</option>
               <option value="stuffed" id="stuffed">Stuffed-150</option>
               <option value="gluten-free" id="gluten-free">Gluten-free-100</option>
-            </select>    
+            </select><br>     
             <select id="topping">
               <option selected>Which topping would you like:</option>
               <option value="mushroom" id="mushroom">mushroom</option>
               <option value="onion" id="onion">onion</option>
               <option value="bacon" id="bacon">bacon</option>
-            </select> 
+            </select><br> 
           </div>
           <div class="col-md-6">
             <div id="result"></div>
@@ -57,19 +59,31 @@
         </div>
       <button type="button" class="btn btn-primary" id="proceed" onclick="myPrice()">Proceed</button>
       </form>
-      <div id="delivery">
-        <button type="button" class="btn btn-primary" >Delivery</button>
+      
+    <div class="row">
+      <div class="col-md-6">
+        <button type="button" class="btn btn-primary" id="delivery" >Delivery</button>
 
-        <form>
+        <form id="form-delivery">
         
-            <label for="formGroupExampleInput">Name :</label>
-            <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Example input">
+            <label for="name">Name:</label>
+            <input type="text"  id="name" value="name">
         
-            <label for="formGroupExampleInput2">Phone Number:</label>
-            <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Another input">
+            <label for="phone-number">Phone Number:</label>
+            <input type="number" id="phone-number" >
+
+            <label for="Destination">Destination:</label>
+            <input type="text"  id="destination">
+         
          
         </form>
       </div>
+      <div class="col-md-6">
+        <div id=#output></div>
+      </div>
+    </div>
+       
+      
        
       <div class ="card-footer" id="footer">
         <h1><a name="#contact">Contact Us</a></h1>

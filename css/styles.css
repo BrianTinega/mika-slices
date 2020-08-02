@@ -80,3 +80,37 @@ p {
 }
 h2 {text-align: center;}
 
+#delivery {
+  margin-top: 1.5cm;
+  margin-bottom: 0.8cm;
+}
+#form-delivery {
+  display: none;
+}
+
+#size {
+  padding-right: 10cm;
+  padding-top: 0.8cm;
+  margin-left: 0.5cm;
+  margin-bottom: 0.5cm;
+}
+#topping {
+  padding-right: 10cm;
+  padding-top: 0.8cm;
+  margin-left: 0.5cm;
+  margin-bottom: 0.5cm;
+}
+#crust {
+  padding-right: 10cm;
+  padding-top: 0.8cm;
+  margin-left: 0.5cm;
+  margin-bottom: 0.5cm;
+}
+#proceed {
+  margin-left: 0.5cm;
+  margin-bottom: 0.5cm;
+}
+#brand {
+  position: absolute;
+}
+
