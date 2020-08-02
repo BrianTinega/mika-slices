@@ -108,6 +108,10 @@ else if (inputSize=="medium" && inputCrust=="gluten-free" && inputTopping=="baco
   else if (inputSize=="small" && inputCrust=="gluten-free" && inputTopping=="bacon") {
     document.getElementById("result").innerHTML=("Your price should be " + parseInt(sizePrices[2] + toppingPrices[2]+crustPrices[2]))
   }
+  else {
+    document.getElementById("result").innerHTML=("Kindly fill in all details above");
+
+  }
   }
  
 
