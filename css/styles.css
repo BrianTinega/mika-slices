@@ -113,4 +113,10 @@ h2 {text-align: center;}
 #brand {
   position: absolute;
 }
-
+#navigation {
+  position:relative,fixed
+  
+}
+#brand {
+  position: absolute;
+}
