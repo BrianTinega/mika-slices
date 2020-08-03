@@ -2,6 +2,7 @@
 <html>
   <header>
     <title>Mika-slices</title>
+    <link href="https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/styles.css" type="text/css">
     <script src="js/jquery-3.5.1.js"></script>
@@ -11,8 +12,8 @@
   <body>
     <div class="card">
       <nav id="navigation"> 
-        <button type="button" class="btn btn-primary" id="about-us">About us</button>
-        <a href="#Contact"><button type="button" class="btn btn-primary" id="contact-us">Contact Us</button></a>
+        <button type="button" class="btn btn-primary" id="about-us"><a href="#about">About us</a></button>
+        <button type="button" class="btn btn-primary" id="contact-us"><a href="#contact-blue">Contact Us</a></button>
         <img src="images/logo.png" alt="brand" id="brand" >
       </nav>
     </div>
@@ -21,14 +22,14 @@
      
       <button class="btn" id="yellow-button"><a href="#order-page">Order Now</a></button>
     </div>
-    <h2>ABOUT US</h2>
+    <h2><a name="about">About us</a></h2>
     <div class="card">
-      <div class="card-body">
+      <div class="card-image">
        <div class="row">
          <div class="col-md-6">
-           <img src="images/PIZZA.jpg">
+           <img src="images/PIZZA.jpg" id="about-image">
          </div>
-         <div class="col-md-6">
+         <div class="col-md-6" id="who">
           <h2>Who are we?</h2>
           <p>Mika-slices has been in successful operation for the past five years.</p>
           <p>We pride ourselves in being the number Pizza outlet in Ngong town an accolade highly attributed to the positive customer's feedback.</p>
@@ -68,35 +69,10 @@
         </div>
       <button type="button" class="btn btn-primary" id="proceed" onclick="myPrice()">Proceed</button>
       </form>
-      
-    <div class="row">
-      <div class="col-md-6">
-        <button type="button" class="btn btn-primary" id="delivery" >Delivery</button>
-
-        <form id="form-delivery">
-        
-            <label for="name">Name:</label>
-            <input type="text"  id="name" value="name">
-        
-            <label for="phone-number">Phone Number:</label>
-            <input type="number" id="phone-number" >
-
-            <label for="Destination">Destination:</label>
-            <input type="text"  id="destination">
-         
-         
-        </form>
-      </div>
-      <div class="col-md-6">
-        <div id=#output></div>
-      </div>
-    </div>
-       
-      
-       
+  
       <div class ="card-footer" id="footer">
-        <a name="#Contact"><h1>Contact Us</h1></a>
-         <div class="row">t">
+        <a name="contact-blue"><h1>Contact Us</h1></a>
+         <div class="row">
            <div class="col-md-6">
              <p>Address</p>
              <p>P.o Box 893,</p>

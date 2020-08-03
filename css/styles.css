@@ -120,3 +120,20 @@ h2 {text-align: center;}
 #brand {
   position: absolute;
 }
+#who {
+  background-color: black;
+  color: white;
+  border-radius: 1cm;
+  
+  
+  
+}
+#about-image {
+  margin-left: 1cm;
+  border-radius: 0.8cm;
+}
+#who p {
+  font-family: 'Frank Ruhl Libre', serif;
+  
+  font-size: 25px
+}
