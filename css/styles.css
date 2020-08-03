@@ -12,20 +12,9 @@
   margin-top: 0.3cm;
 }
 
-nav {
-  background-color:black;
-  justify-content: right;
-  margin-top: 0cm;
-  padding-bottom: 1.5cm;
-  position: fixed;
-  width:100%;
-}
 
-.landin-page {
-  position: relative;
-  width: 200%;
-  
-}
+
+
 
 /* Make the image responsive */
 .landing-page img {
@@ -94,18 +83,31 @@ h2 {text-align: center;}
   padding-top: 0.8cm;
   margin-left: 0.5cm;
   margin-bottom: 0.5cm;
+  background-color: transparent;
+  border-radius: 0.8cm;
+  font-family: 'Frank Ruhl Libre', serif;
+  font-size: 25px;
 }
 #topping {
   padding-right: 10cm;
   padding-top: 0.8cm;
   margin-left: 0.5cm;
-  margin-bottom: 0.5cm;
+  margin-bottom: 0.1cm;
+  background-color: transparent;
+  border-radius: 0.8cm;
+  text-align: right;
+  font-family: 'Frank Ruhl Libre', serif;
+  font-size: 25px;
 }
 #crust {
   padding-right: 10cm;
   padding-top: 0.8cm;
   margin-left: 0.5cm;
   margin-bottom: 0.5cm;
+  background-color: transparent;
+  border-radius: 0.8cm;
+  font-family: 'Frank Ruhl Libre', serif;
+  font-size: 25px;
 }
 #proceed {
   margin-left: 0.5cm;
@@ -114,11 +116,7 @@ h2 {text-align: center;}
 #brand {
   position: absolute;
 }
-#navigation {
-  position: fixed;
-  overflow: hidden;
-  
-}
+
 #brand {
   position: absolute;
 }
@@ -126,7 +124,7 @@ h2 {text-align: center;}
   background-color: black;
   color: white;
   border-radius: 1cm;
-  overflow: hidden;
+ 
   
   
   
@@ -162,4 +160,29 @@ h2 {margin-top: 2cm;}
   .landing-page .btn {
     margin-top: 30cm;
   }
+}
+
+#delivery {
+  padding-right: 10cm;
+  padding-top: 0.8cm;
+  margin-left: 0.5cm;
+  margin-bottom: 0.5cm;
+  background-color: transparent;
+  margin-top: 0;
+
+  
+}
+select {
+  text-align: center;
+}
+h3 {
+  margin-top: 0.5cm;
+}
+nav {
+  background-color:black;
+  justify-content: right;
+  margin-top: 0cm;
+  padding-bottom: 1.2cm;
+  position: fixed;
+  width:100%;
 }

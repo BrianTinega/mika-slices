@@ -111,14 +111,10 @@ else if (inputSize=="medium" && inputCrust=="gluten-free" && inputTopping=="baco
   else if (inputSize=="small" && inputCrust=="gluten-free" && inputTopping=="bacon" && inputDelivery=="home") {
     document.getElementById("result").innerHTML=("Your price should be " + parseInt(sizePrices[2] + toppingPrices[2]+crustPrices[2]+ deliveryPrices[1]))
   }
-  else {
-    document.getElementById("result").innerHTML=("Kindly fill in all details above");
-
-  }
-
+ 
   //*******************************SELF ************************************************ */
   //large** crust type is changing**mushroom
-  if (inputSize=="large" && inputCrust=="crispy" && inputTopping=="mushroom" && inputDelivery=="self") {
+  else if (inputSize=="large" && inputCrust=="crispy" && inputTopping=="mushroom" && inputDelivery=="self") {
     document.getElementById("result").innerHTML=("Your price should be " + parseInt(sizePrices[0] + toppingPrices[0]+crustPrices[0]+ deliveryPrices[2]));
   }
   else if (inputSize=="large" && inputCrust=="stuffed" && inputTopping=="mushroom" && inputDelivery=="self") {
@@ -220,8 +216,6 @@ else if (inputSize=="medium" && inputCrust=="gluten-free" && inputTopping=="baco
     document.getElementById("result").innerHTML=("Kindly fill in all details above");
 
   }
-
- 
   }
  
 
