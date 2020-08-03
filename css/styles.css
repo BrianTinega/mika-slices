@@ -52,6 +52,7 @@ nav {
   scroll-behavior: smooth;
   box-shadow: 0 5px #666;
   transform: translateY(4px);
+  animation: 2s infinite;
 }
 .crust {
   margin-top: 2cm;
@@ -114,7 +115,8 @@ h2 {text-align: center;}
   position: absolute;
 }
 #navigation {
-  position:relative,fixed
+  position: fixed;
+  overflow: hidden;
   
 }
 #brand {
@@ -124,6 +126,7 @@ h2 {text-align: center;}
   background-color: black;
   color: white;
   border-radius: 1cm;
+  overflow: hidden;
   
   
   
@@ -136,4 +139,27 @@ h2 {text-align: center;}
   font-family: 'Frank Ruhl Libre', serif;
   
   font-size: 25px
+}
+a:link {
+  color:white
+}
+#yellow-button {
+  animation-play-state: 2s initial;
+}
+#result {
+  font-family: 'Frank Ruhl Libre', serif;
+  font-size: 25px;
+  
+  margin-top: 2cm;
+  padding-bottom: 3cm;
+  padding-left: 2cm;
+  padding-top: 2cm;
+  display:nine
+
+}
+h2 {margin-top: 2cm;}
+@media screen and (max-width: 480px)  {
+  .landing-page .btn {
+    margin-top: 30cm;
+  }
 }
