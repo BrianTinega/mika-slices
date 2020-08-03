@@ -27,7 +27,7 @@
 /* Style the button and place it in the middle of the container/image */
 .landing-page .btn {
   position: absolute;
-  top: 80%;
+  top: 50%;
   left: 50%;
   
   background-color: yellow;
@@ -41,8 +41,21 @@
   scroll-behavior: smooth;
   box-shadow: 0 5px #666;
   transform: translateY(4px);
-  animation: 2s infinite;
+  -webkit-animation: bounce .3s infinite alternate;
+  -moz-animation: bounce .3s infinite alternate;
+  animation: bounce .3s infinite alternate;
 }
+@-webkit-keyframes bounce {
+  to { -webkit-transform: scale(1.2); }
+}
+@-moz-keyframes bounce {
+  to { -moz-transform: scale(1.2); }
+}
+@keyframes bounce {
+  to { transform: scale(1.2); }
+}
+
+
 .crust {
   margin-top: 2cm;
   padding: 1%;
